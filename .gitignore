@@ -1,0 +1,19 @@
+# Dossiers locaux de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d'état de Terraform (contiennent des secrets et des infos de provisionnement)
+*.tfstate
+*.tfstate.*
+
+# Fichiers de secrets et de configuration locale
+*.json
+*.key
+*.pem
+*.p12
+
+# Chemin spécifique de votre clé Google Cloud
+infrastructure/*.json
+
+# Fichiers d'environnement (si utilisés)
+.env
