@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>🗳️ Vote App</h2>
+
+  <div>
+    <input [(ngModel)]="candidateName" placeholder="Nom du candidat" />
+    <button (click)="addVote()">Voter</button>
+  </div>
+
+  <h3>Votes enregistrés :</h3>
+  <ul>
+    <li *ngFor="let vote of votes">
+      {{ vote.candidate }}
+    </li>
+  </ul>
+</div>
