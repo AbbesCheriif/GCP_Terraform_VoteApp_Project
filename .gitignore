@@ -17,3 +17,10 @@ infrastructure/*.json
 
 # Fichiers d'environnement (si utilisés)
 .env
+infrastructure/variables.tf
+artifact_registry/variables.tf
+cloudrun/variables.tf
+cloudsql/variables.tf
+frontend/variables.tf
+network/variables.tf
+infrastructure/*.json
